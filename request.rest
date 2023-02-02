@@ -1,0 +1,24 @@
+POST http://localhost:3000/api/products/products
+    Content-Type: application/json
+
+    {
+        "name":"product test",
+        "price":30
+    }
+
+###
+POST http://localhost:3000/api/register/register
+    Content-Type: application/json
+
+    {
+        "username":"user10",
+        "password":"password10",
+        "role":"user"
+    }
+
+###
+GET http://localhost:3000/api/categories/categories
+
+
+###
+GET http://localhost:3000/api/categories/subCategories
