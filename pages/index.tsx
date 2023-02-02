@@ -56,7 +56,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     : 1;
   const limit = isNumber(Number(context.query.limit))
     ? Number(context.query.limit)
-    : 5;
+    : 10;
 
   const offset = (page - 1) * limit;
 
